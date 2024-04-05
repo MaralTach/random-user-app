@@ -13,7 +13,7 @@ function CardUser() {
   };
 
   return (
-    <div>
+    <div className="main">
       {randomUser ? (
         <div className="container">
           <img src={randomUser.image} alt="" />

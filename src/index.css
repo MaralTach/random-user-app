@@ -4,10 +4,23 @@
   box-sizing: border-box;
 }
 
+body{
+  background-image: url(../public/img/3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+}
+
+.main{
+  width: 350px;
+  height: 450px;
+  margin: auto;
+  background-color: rgb(215, 238, 236);
+}
 .container{
   width: 100%;
   margin: auto;
-  
 }
 
 .container img{
@@ -24,6 +37,7 @@
 
 .btn{
   border:none;
+  margin: 10px;
   padding: 10px 20px;
   border-radius: 10px;
   color: white;
